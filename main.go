@@ -74,6 +74,7 @@ func run(f factory) {
 	}
 }
 
+//HTTPTask is a struct for holding necessary calling information
 type HTTPTask struct {
 	url string
 	ok  bool
@@ -99,6 +100,7 @@ func (h *HTTPTask) output() {
 	fmt.Printf("%s %t\n", h.url, h.ok)
 }
 
+//Factory is a struct to employ the factory interface
 type Factory struct {
 }
 
