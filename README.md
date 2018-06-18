@@ -1,0 +1,1 @@
+GoSystem: Based off course work. Used to pipe in single/multiple outside with which to run processes
