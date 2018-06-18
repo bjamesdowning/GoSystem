@@ -1,3 +1,5 @@
+//Example of how to use generic tool to pipe in workloads and use
+//concurrency to process input
 package main
 
 import (
